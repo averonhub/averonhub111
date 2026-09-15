@@ -16,7 +16,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 -- 👇 Вставь сюда ссылку raw на свой whitelist.json
-local WHITELIST_URL = "https://raw.githubusercontent.com/averonhub/averonhub12/refs/heads/main/whitelist?token=GHSAT0AAAAAAEJCHCHHMINFV2QJ54EVMC6M2VJCXCA.json"
+local WHITELIST_URL = "https://raw.githubusercontent.com/averonhub/averonhub12/refs/heads/main/whitelist.lua?token=GHSAT0AAAAAAEJCHCHG27CTMEI6ZVK6XB662VJDBQA
 
 local function isWhitelisted()
     local success, result = pcall(function()
@@ -44,7 +44,7 @@ end
 -- Проверка
 if not isWhitelisted() then
     local msg = Instance.new("Message")
-    msg.Text = "❌ Доступ запрещён. Тебя нет в whitelist."
+    msg.Text = "❌ саси хуй ."
     msg.Parent = game:GetService("CoreGui")
     task.wait(3)
     msg:Destroy()
