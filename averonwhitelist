@@ -16,7 +16,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 -- 👇 Вставь сюда ссылку raw на свой whitelist.json
-local WHITELIST_URL = "https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/whitelist.json"
+local WHITELIST_URL = "https://raw.githubusercontent.com/averonhub/averonhub12/refs/heads/main/whitelist?token=GHSAT0AAAAAAEJCHCHHMINFV2QJ54EVMC6M2VJCXCA.json"
 
 local function isWhitelisted()
     local success, result = pcall(function()
